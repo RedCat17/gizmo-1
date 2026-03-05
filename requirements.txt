@@ -1,4 +1,4 @@
 aiogram
 asyncio
 pillow
-https://github.com/SolovovChann/demotivator.git
+git+https://github.com/SolovovChann/demotivator.git
