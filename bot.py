@@ -53,7 +53,7 @@ TARGET_MAX_WIDTH = 800
 # Demotivator setup
 # =========================
 
-font = ImageFont.truetype("/usr/share/fonts/TTF/LiberationSerif-Regular.ttf", 60)
+font = ImageFont.truetype("LiberationSerif-Regular.ttf", 60)
 
 border = ImageIndentation.css_like(3)
 padding = ImageIndentation.css_like(8)
