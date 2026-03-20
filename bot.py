@@ -208,7 +208,7 @@ async def handle_photo(message: Message):
 
     except Exception as e:
         logger.exception("Error processing image")
-        await message.answer("Ошибка обработки изображения.")
+        await message.reply("Ошибка обработки изображения.")
 
 @router.message()
 async def troll_handler(message: Message):
